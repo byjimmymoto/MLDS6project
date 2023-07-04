@@ -3,14 +3,14 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nombre_paquete"
+name = "plant_pathology"
 version = "0.1.0"
-authors = [{name = "autor1", email = "correo@correo.com"}]
-description = "Descripción del proyecto"
-requires-python = ">3.8"
+authors = [{name = "ByJimmymoto", email = "jimmymoto26@gmail.com"}]
+description = "Proyecto de prediccion de patologias de plantas de manzano"
+requires-python = ">3.6"
 dependencies = [
     "numpy"
 ]
 
 [tool.setuptools.packages.find]
-where = ["src/"]
+where = ["src/plant_pathology"]
