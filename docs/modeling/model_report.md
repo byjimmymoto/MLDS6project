@@ -2,24 +2,21 @@
 
 ## Resumen Ejecutivo
 
-En esta sección se presentará un resumen de los resultados obtenidos del modelo final. Es importante incluir los resultados de las métricas de evaluación y la interpretación de los mismos.
+El presente modelo esta creado en la necesidad de tener una forma de poder realizar un analisis de imagenes de arboles de manzano con las cuales se pueda identificar si seeeee encuentran con enfermedad y poder identificar si esta entre tres tipos especiales
 
 ## Descripción del Problema
 
-En esta sección se describirá el problema que se buscó resolver con el modelo final. Se debe incluir una descripción detallada del problema, el contexto en el que se desarrolla, los objetivos que se persiguen y la justificación del modelo.
+Uno de los usos principales de los modelos de machine learning es el poder utilizarlos para el area agricola en la cual se busca de una manera facil identificar enfermedades y sugerir tratamientos sobre estos, de acuerdo a diferentes factores. En especial con el uso de los dispositivos electronicos que pueden dar una opcion mas rapida al poder usar este tipo de modelos como prevencion.
 
 ## Descripción del Modelo
 
-En esta sección se describirá el modelo final que se desarrolló para resolver el problema planteado. Se debe incluir una descripción detallada del modelo, la metodología utilizada y las técnicas empleadas.
+El modelo esta creado con dos redes convolucionales sobre el modelo base de MobileNet, ya que esta fue la combinacion que mas dio resultados al momento de hacer las pruebas.
 
 ## Evaluación del Modelo
 
-En esta sección se presentará una evaluación detallada del modelo final. Se deben incluir las métricas de evaluación que se utilizaron y una interpretación detallada de los resultados.
+En los resultados de evaluacion se encuentra que si se aumentan las epocas de entrenamiento y no se utilizan las capas convoluucionales adicionadas el modelo presenta falla.
+![Validation](images/train_validation.png)
 
 ## Conclusiones y Recomendaciones
 
-En esta sección se presentarán las conclusiones y recomendaciones a partir de los resultados obtenidos. Se deben incluir los puntos fuertes y débiles del modelo, las limitaciones y los posibles escenarios de aplicación.
-
-## Referencias
-
-En esta sección se deben incluir las referencias bibliográficas y fuentes de información utilizadas en el desarrollo del modelo.
+Como conclusion es necesario tener una maquina potente para poder realizar el entrenamiento y reentrenamiento, ademas de que por tener mas epocas en el entrenameinto no siempre se obtienen mejores resultados.
